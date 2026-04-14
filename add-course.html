@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Course Organizer</h1>
+            <hr>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="add-course.html">Add Course</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+                  
+    <main>
+        <div>
+            <h2>Add a New Course</h2>
+            <p>Please fill out the following form to add a new course:</p>
+            <br>
+        </div>
+        <form>
+            <label for = "course-name">Course Name:</label>
+            <input type="text" id="course-name" name="course-name" maxlength="20" required>
+            <br>
+            <label for = "instructor">Instructor:</label>
+            <input type="text" id="instructor" name="instructor" maxlength="10" required>
+            <br>
+            <label for = "credit-hours">Credit Hours:</label>   
+            <input type="number" id="credit-hours" name="credit-hours" min="1" max="5" required>
+            <br>
+            <label for="notes">Notes:</label>
+            <textarea id="notes" name="notes" maxlength="100" placeholder="Enter notes..."></textarea>
+            <br>
+            <input type="submit" value="Add Course">
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 <b>Yousef</b> | Email: <b>srkono@gmail.com</b></p>
+    </footer>
+
+</body>
+</html>
